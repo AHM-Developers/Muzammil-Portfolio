@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog FAQs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css" integrity="sha256-6cNfZR8Lir3i9REZhlSOohwOZ9fXo8K8wZHwL+QzcuY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./FAQS style.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+</head>
+
+<body>
+
+    <header>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <img src="../PATRONA_LOGO-removebg-preview.png" class="logon">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item ms-5">
+                                <a class="nav-link active" aria-current="page" href="../Home page/home.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown ms-5">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Feeds</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="../Feeds/Dogs of the month/dogs.html">Dog of the month</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="../Feeds/foods/foods.html">Food of the month </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../Feeds/houses/houses.html"> Permium Houses </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../Feeds/health and care/health.html">Health & Care</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="../countries cards/countries cards.html">Countries</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="../About us/about.html">AboutUs</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="../contact us/Contact.html">Contact </a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="../FAQS/FAQS.html">FAQ's</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" id="search" oninput="onSearch()">
+                            <button class="btn btn-outline-success" type="submit" id="searchbar">Search</button>
+                            <ul id="list">
+                                <ul>
+                                    <a href="../on click page/African dogs details onclick/African Hairless Dog/African Hairless Dog info.html">
+                                        <li>African Hairless Dog</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/AIDI/AIDI info.html">
+                                        <li>Aidi</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/Azawakh/Azawakh info.html">
+                                        <li>Azawakh</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/BASENJI/BASENJI info.html">
+                                        <li>Basenji</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/BOERBOEL/Boerboel info.html">
+                                        <li>Boerboel</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/Cirneco dell'Etna/Cirneco dell'Etna info.html">
+                                        <li>Cirneco Dell'Etna</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/Lycaon pictus/Lycaon pictus info.html">
+                                        <li>lYCAON Pictus</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/Pharaoh Hound/Pharaoh Hound info.html">
+                                        <li>Pharaoh Hound</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/RHODESIAN RIDGEBACK/RHODESIAN RIDGEBACK info.html">
+                                        <li>Rhodesian Ridgeback</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/SALUKI/SALUKI info.html">
+                                        <li>Saluki</li>
+                                    </a>
+                                    <a href="../on click page/African dogs details onclick/SLOUGHI/SLOUGHI info.html">
+                                        <li>Sloughi</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Australian Bull dog/australlian bulldog info.html">
+                                        <li>Australian Bull Dog</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Australian Eskimo/Australlian Eskimo info.html">
+                                        <li>Australian Eskimo</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Australian sheepadoodle/australlia sheepadoodle info.html">
+                                        <li>Australian Sheepadoodle</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Blue heeler/blue heeler info.html">
+                                        <li>Blue Heeler</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Cattle dog/cattle info.html">
+                                        <li>Cattle DOG</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Cavalier King/cavalier king info.html">
+                                        <li>Cavalier King</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Dalmation/Dalmation info.html">
+                                        <li>Dalmation</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Goldendoodle/goldendoodle info.html">
+                                        <li>Goldendoodle</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Rhodesian Ridgeback/rhodesian ridgeback info.html">
+                                        <li>Rhodesian Ridgeback</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Silky Terrier/silky terrier info.html">
+                                        <li>Silky Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Tenterfield Terrier/tenterfield terrier info.html">
+                                        <li>Tenterfield Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Australlia dogs details onclick/Terri-Poo/terri poo info.html">
+                                        <li>Terri-poo</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/BEARDED COLLIE/bearded collie.html">
+                                        <li>Bearded Collie</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/BLOODHOUND/bloodhound info.html">
+                                        <li>BloodHound</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/BORDER COLLIE/border collie info.html">
+                                        <li>Border Collie</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/CAIRN TERRIER/cairn terrier info.html">
+                                        <li>Cairn Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/BORDER TERRIER/border terrier info.html">
+                                        <li>Border Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/DANDIE DINMONT TERRIER/dandie dnmont terrier info.html">
+                                        <li>Dandie Dinmont Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/GOLDEN RETRIEVER/golden retriever info.html">
+                                        <li>Golden Retriver</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/GORDON SETTER/golden setter info.html">
+                                        <li>Gordon Setter</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/PAISLEY TERRIER/paisley terrier.html">
+                                        <li>Paisley Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/ROUGH COLLIE/rough collie info.html">
+                                        <li>Rough Collie</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/SCOTTISH DEERHOUND/scotish deerhound info.html">
+                                        <li>Scottish Deerhound</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/SCOTTISH TERRIER/scotish terrier info.html">
+                                        <li>Scottish Terrier</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/SHETLAND SHEEPDOG/shetland sheepdog info.html">
+                                        <li>Shetland Sheepdog</li>
+                                    </a>
+                                    <a href="../on click page/Scotland dogs details onclick/SKYE TERRIER/skye terrier.html">
+                                        <li>Skye Terrier</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/DOBERMAN-PINSCHER/doberman pinscher info.html">
+                                        <li>Doberman-Pinscher</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN GREAT-DANE/german great dane info.html">
+                                        <li>German Great Dane</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN SPITZ/german spitz info.html">
+                                        <li>Germen Spitz</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-AFFENPINSCHER/german affenpinscher info.html">
+                                        <li>Germen AffenPinscher</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-BOXER/german boxer info.html">
+                                        <li>Germen Boxer</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-DACHSHUND/german dachshund info.html">
+                                        <li>Germen Dachshund</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-ESKIMO/german eskimo.html">
+                                        <li>German Eskimo</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-EURASIER/german eurasier info.html">
+                                        <li>German Eurasier</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-LEONBERGER/german leonberger info.html">
+                                        <li>German Leonberger</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-LOWCHEN/german lowchen info.html">
+                                        <li>German Lowchen</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-POMERANIAN/german pomernian info.html">
+                                        <li>German Pomeranian</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-POODLE/german poodle info.html">
+                                        <li>German Poodle</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-ROTTWEILER/german rottweiler info.html">
+                                        <li>German Rottweiler</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/GERMAN-SHEPHERD/german sheperd info.html">
+                                        <li>German Shepherd</li>
+                                    </a>
+
+                                    <a href="../on click page/German dogs details onclick/GIANT SCHNAUZER/giant schnauzer info.html">
+                                        <li>Giant Schnauzer</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/LARGE MÜNSTERLÄNDER/large munsterlander info.html">
+                                        <li>Large Munsterlander</li>
+                                    </a>
+
+                                    <a href="../on click page/German dogs details onclick/SHORTHAIRED POINTER/shorthaired pointer info.html">
+                                        <li>Shorthaired Pointer</li>
+                                    </a>
+                                    <a href="../on click page/German dogs details onclick/SMALL MÜNSTERLÄNDER/small munsterlander info.html">
+                                        <li>Small Munsterlander</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/BERGAMASCO SHEPHERD/bergamasco shepherd.html">
+                                        <li>Bergamasco Shepherd</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/BOLOGNESE DOG/info.html">
+                                        <li>Bolongnese Dog</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/BRACCO/info.html">
+                                        <li>Bracco</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/CANE CORSO/info.html">
+                                        <li>Cane Corso</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/CIRNECO DELL'ETNA/info.html">
+                                        <li>Cirneco Dell'Etna</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/DOGO SARDO/info.html">
+                                        <li>Dogo Sardo</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/ITALIAN GREYHOUND/info.html">
+                                        <li>Italian Greyhound</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/LAGOTTO ROMAGNOLO/info.html">
+                                        <li>Lagotto Romagnolo</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/LUPO ITALIANO/info.html">
+                                        <li>Lupo Italiano</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/MALTESE DOG/info.html">
+                                        <li>Maltese Dog</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/MAREMMANO-ABRUZZESE SHEEPDOG/info.html">
+                                        <li>Maremmano Abruzzese Sheepdog</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/NEAPOLITAN MASTIFF/info.html">
+                                        <li>Neapolitan Mastiff</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/SEGUGIO ITALIANO/info.html">
+                                        <li>Segugio Italiano</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/SPINONE ITALIANO/info.html">
+                                        <li>Spinone Italiano</li>
+                                    </a>
+                                    <a href="../on click page/Italy dogs details onclick/VOLPINO/info.html">
+                                        <li>Volpino</li>
+                                    </a>
+
+                                    <a href="../on click page/Italy dogs details onclick/">
+                                        <li>Golden Retriver</li>
+                                    </a>
+                                    <a href="../on click page/china dogs details onclick/SHIH TZU/shih tzu info.html">
+                                        <li>Shih Tzu</li>
+                                    </a>
+
+                                    <a href="../on click page/Belgium dogs details onclick/BELGIAN LAEKENOIS/belgian laekenois info.html">
+                                        <li>Belgian Laekenois</li>
+                                    </a>
+                                    <a href="../on click page/Belgium dogs details onclick/BELGIAN MALINOIS/belgian malinois.html">
+                                        <li>Belgian Malinois</li>
+                                    </a>
+                                    <a href="../on click page/Belgium dogs details onclick/BELGIAN SHEPHERD DOG/belgian shepard dog info.html">
+                                        <li>Belgian Shepherd Dog</li>
+                                    </a>
+                                    <a href="../on click page/Belgium dogs details onclick/BELGIAN TERVUREN/belgian tervuren info.html">
+                                        <li>Belgian Tervuren</li>
+                                    </a>
+                                    <a href="../on click page/Belgium dogs details onclick/BLOODHOUND/bloodhound info.html">
+                                        <li>BloodHound</li>
+                                    </a>
+                                    <a href="../on click page/France dogs details onclick/Beagle/beagle info.html">
+                                        <li>Beagle</li>
+                                    </a>
+                                    <a href="../on click page/France dogs details onclick/BASSET HOUND/Basset hound info.html">
+                                        <li>Beauceron</li>
+                                    </a>
+                                    <a href="../on click page/France dogs details onclick/CAVAPOO/cavapoo info'.html">
+                                        <li>Cavapoo</li>
+                                    </a>
+                                    <a href="../on click page/France dogs details onclick/BRITTANY/brittany info.html">
+                                        <li>Brittany</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/AIREDALE TERRIER/airedale terrier info.html">
+                                        <li>Airedale Terrier</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/BASSET HOUND/Basset Hound.html">
+                                        <li>Basset Hound</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/BEDLINGTON TERRIER/bedlington terrier info.html">
+                                        <li>Bedlington Terrier</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/NORFOLK TERRIER/norfolk terrier info.html">
+                                        <li>Norfolk</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/OLD ENGLISH BULLDOG/old english bulldog info.html">
+                                        <li>Old English Bulldog</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/POINTER/pointer info.html">
+                                        <li>Pointer</li>
+                                    </a>
+                                    <a href="../on click page/England dogs detail onclick/STAGHOUND/">
+                                        <li>Staghound</li>
+                                    </a>
+                                </ul>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Bootstrap JavaScript Libraries -->
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js " integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+ " crossorigin="anonymous "></script>
+
+
+        <h1>Frequently Asked Questions</h1>
+        <section class="faqs">
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What are the best breeds for families?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Breeds like Golden Retrievers, Labrador Retrievers, and Beagles are known for their friendly and family-oriented nature.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How often should I groom my dog?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Grooming needs vary by breed, but in general, dogs should be brushed regularly, nails trimmed, and ears cleaned. Long-haired breeds may need more frequent grooming.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What is the best diet for my dog?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Consult with your vet for personalized advice, but a balanced diet with high-quality dog food that meets your dog's age, size, and activity level is essential. Avoid feeding them human food that can be harmful.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How much exercise does my dog need?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: The amount of exercise varies by breed and age. In general, dogs need daily walks and playtime. High-energy breeds may require more vigorous exercise.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What vaccinations does my dog need?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    A: Dogs commonly require vaccinations against rabies, distemper, parvovirus, and adenovirus. Consult with your vet to create a vaccination schedule based on your dog's health and lifestyle.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How can I train my dog to follow basic commands?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Consistent positive reinforcement, using treats and praise, is effective in training dogs. Start with basic commands like sit, stay, and come. Consider enrolling in obedience classes for more structured training.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What are signs of a healthy dog?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: A healthy dog has a shiny coat, clear eyes, and healthy gums. They should be active, have a normal appetite, and maintain a healthy weight. Regular veterinary check-ups are essential to monitor overall health.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How do I introduce a new dog to my existing pets?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Introduce dogs in a neutral territory, use positive reinforcement, and monitor their interactions closely. Gradually increase the time they spend together, and be patient as they establish a relationship.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What should I do if my dog shows signs of illness?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: If your dog displays signs of illness such as lethargy, loss of appetite, vomiting, or diarrhea, consult with your vet immediately. Early detection and treatment are crucial for a speedy recovery.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How often should I brush my dog's teeth?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Ideally, you should brush your dog's teeth at least 2-3 times a week using a dog-friendly toothbrush and toothpaste. Dental health is essential for preventing oral issues in dogs.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: Can I feed my dog a homemade diet?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: While some owners choose to feed their dogs a homemade diet, it's crucial to ensure it's nutritionally balanced. Consult with a vet or a canine nutritionist to create a safe and balanced homemade diet.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How do I deal with my dog's separation anxiety?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Gradually desensitize your dog to your departure, use interactive toys, and establish a consistent routine. In severe cases, consult with a professional dog trainer or behaviorist for guidance.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: Are certain foods toxic to dogs?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Yes, some foods, including chocolate, grapes, onions, and garlic, can be toxic to dogs. Avoid feeding them these foods, and be cautious about what your dog has access to in your home.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: How can I keep my dog mentally stimulated?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Provide puzzle toys, engage in interactive play, teach new commands, and vary their daily routine. Mental stimulation is essential for preventing boredom and promoting a happy, healthy dog.
+                </p>
+            </div>
+
+            <div class="faq-item" data-aos="fade-up" data-aos-duration="11000">
+                <h2 class="question">
+                    Q: What is the best way to socialize my puppy?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Expose your puppy to various people, environments, and other dogs in a positive and controlled manner. Puppy socialization classes can also be beneficial for building their confidence and social skills.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h2 class="question">
+                    Q: Should I spay/neuter my dog?
+                    <i class="arrow fas fa-arrow-down"></i>
+                </h2>
+                <p class="answer">
+                    Ans: Spaying or neutering your dog can prevent certain health issues and unwanted behaviors. Consult with your vet to determine the best timing for the procedure based on your dog's breed and age.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start background text-white">
+            <!-- Section: Social media -->
+            <div class="foot" style="background-color: #f8f8f8; margin-top: 10px;">
+
+            </div>
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block socail-media">
+                    <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div>
+                    <a href="https://www.facebook.com/login.php/" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/i/flow/login" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.google.com/search?q=google&rlz=1C1PNBB_enPK1080PK1080&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyEggDEAAYQxiDARixAxiABBiKBTIMCAQQABhDGIAEGIoFMhIIBRAAGEMYgwEYsQMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTIPCAcQABhDGLEDGIAEGIoFMhIICBAAGEMYgwEYsQMYgAQYigUyDAgJEAAYQxiABBiKBdIBCTU0NTZqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8"
+                        class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/login" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/login" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <div class="text-center d-flex justify-content-center text-uppercase fw-bold mb-4">
+                                <div class="logo"></div>
+                            </div>
+                            <p>
+                                <span class="descript-div-text text-uppercase">"Welcome to Patrona ! I'm here for your guide to the enchanting world of puppies. Discover tips, stories, and the joy of raising these furry companions.&quot;</span>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 products">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 heading">
+                                Products
+                            </h6>
+                            <p>
+                                <a href="../Home page/home.html" class="text-reset">Home</a>
+                            </p>
+                            <p>
+                                <a href="../Feeds/Dogs of the month/dogs.html" class="text-reset">Feeds</a>
+                            </p>
+                            <p>
+                                <a href="../countries cards/countries cards.html" class="text-reset">Countries</a>
+                            </p>
+                            <p>
+                                <a href="../About us/about.html" class="text-reset">About US</a>
+                            </p>
+                            <p>
+                                <a href="../contact us/Contact.html" class="text-reset">Contact</a>
+                            </p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">FAQ's</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 discovers">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 heading">
+                                Discover
+                            </h6>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">Why do dogs bark?</a></p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">Why do dogs stare?</a></p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">5 facts about dogs?</a>
+                            </p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">Can dogs see color?</a>
+                            </p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">What does dog eat?</a>
+                            </p>
+                            <p>
+                                <a href="../FAQS/FAQS.html" class="text-reset">Signs of healthy dog?</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contacts">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4 heading">Contact</h6>
+                            <a href="https://www.aptechgarden.com/" class="contact">
+                                <p><i class="fas fa-home me-3"></i> Aptech Garden , Karachi.</p>
+                            </a>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="contact">
+                                <p>
+                                    <i class=" fas fa-envelope me-3 "></i> AHMDevelopers@gmail.com
+                                </p>
+                            </a>
+                            <a href="https://web.whatsapp.com/" class="contact">
+                                <p><i class="fas fa-phone me-3 "></i>+92 30487 64667</p>
+                            </a>
+                            <a href="https://web.whatsapp.com/" class="contact">
+                                <p><i class="fas fa-print me-3 "></i>+92 332 9259219 </p>
+                            </a>
+
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2023 Copyright:
+                <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=61554500621622" style="color: yellow !important;">AHM's Developers</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const questions = document.querySelectorAll('.question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                answer.classList.toggle('show');
+                this.querySelector('.faq-item').classList.toggle('fa-arrow-down');
+            });
+        });
+    });
+    AOS.init();
+    // search bar script
+    const onSearch = () => {
+        const input = document.querySelector("#search");
+        const list = document.querySelector("#list");
+
+        if (input.value.trim() !== "") {
+            list.style.display = "block";
+            const filter = input.value.toUpperCase();
+            const listItems = document.querySelectorAll("#list li");
+
+            listItems.forEach((el) => {
+                const text = el.textContent.toUpperCase();
+                el.style.display = text.includes(filter) ? "block" : "none";
+            });
+        } else {
+            list.style.display = "none";
+        }
+    };
+</script>

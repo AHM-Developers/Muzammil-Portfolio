@@ -1,0 +1,52 @@
+<script>
+    function showpic1() {
+      var main = document.getElementById("main-img");
+      
+      // Reset transition
+      main.style.transition = "none";
+      main.style.opacity = "0";
+      main.style.transform = "translateX(-100%)";
+      
+      main.src = "assets/pic1.jpg";
+      main.offsetHeight; // Trigger reflow
+      
+      // Apply transition
+      main.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+      main.style.transform = "translateX(0)";
+      main.style.opacity = "1";
+  }
+  
+  function showpic2() {
+      var main = document.getElementById("main-img");
+      
+      // Reset transition
+      main.style.transition = "none";
+      main.style.opacity = "0";
+      main.style.transform = "translateX(-100%)";
+      
+      main.src = "assets/pic2.jpg";
+      main.offsetHeight; // Trigger reflow
+      
+      // Apply transition
+      main.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+      main.style.transform = "translateX(0)";
+      main.style.opacity = "1";
+  }
+  
+  function showpic3() {
+      var main = document.getElementById("main-img");
+      
+      // Reset transition
+      main.style.transition = "none";
+      main.style.opacity = "0";
+      main.style.transform = "translateX(-100%)";
+      
+      main.src = "assets/pic3.jpg";
+      main.offsetHeight; // Trigger reflow
+      
+      // Apply transition
+      main.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+      main.style.transform = "translateX(0)";
+      main.style.opacity = "1";
+  }
+  </script>

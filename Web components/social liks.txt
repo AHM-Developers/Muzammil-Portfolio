@@ -1,0 +1,11 @@
+https://www.facebook.com/login.php/
+
+https://www.instagram.com/accounts/login/
+
+https://twitter.com/i/flow/login
+
+https://www.google.com/search?q=google&rlz=1C1PNBB_enPK1080PK1080&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyEggDEAAYQxiDARixAxiABBiKBTIMCAQQABhDGIAEGIoFMhIIBRAAGEMYgwEYsQMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTIPCAcQABhDGLEDGIAEGIoFMhIICBAAGEMYgwEYsQMYgAQYigUyDAgJEAAYQxiABBiKBdIBCTU0NTZqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8
+
+https://github.com/login
+
+https://www.linkedin.com/login

@@ -1,0 +1,254 @@
+body {
+    background-color: #faf0e6;
+    margin: 0;
+    padding: 0;
+}
+
+.premium-houses-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #e4d5b7;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 0px;
+    margin-left: -90px;
+}
+
+.premiumm-houses-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #e4d5b7;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 0px;
+    margin-left: 225px;
+}
+
+.fa-house {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+#Cozy-Indoor {
+    width: 51%;
+    border-radius: 15px;
+    margin-left: 81px;
+    height: 325px;
+}
+
+#Under-Stair {
+    width: 60%;
+    border-radius: 6px;
+    margin-left: 5px;
+    height: 308px;
+}
+
+#DIY-Pallet {
+    width: 72%;
+    /* border-radius: 120px; */
+    margin-left: -75px;
+    height: 309px;
+}
+
+#Repurposed-Wooden {
+    width: 65%;
+    margin-left: 75px;
+    height: 330px;
+}
+
+#Window-Seat {
+    width: 53%;
+    margin-left: -2px;
+    height: 250px;
+}
+
+.premium-houses-section-imges {
+    filter: drop-shadow(0px 0px 6px rgb(94, 94, 92));
+    margin-top: 10px;
+    height: 25%;
+    width: auto;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m: left var(--_i, 0%) top var(--_g), bottom var(--_i, 0%) left var(--_g), top var(--_i, 0%) right var(--_g), right var(--_i, 0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale(0);
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+img:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
+
+/* Keyframes @keyframes wiggle {
+        0%,
+        7% {
+            transform: rotateZ(0);
+        }
+        15% {
+            transform: rotateZ(-15deg);
+        }
+        20% {
+            transform: rotateZ(10deg);
+        }
+        25% {
+            transform: rotateZ(-10deg);
+        }
+        30% {
+            transform: rotateZ(6deg);
+        }
+        35% {
+            transform: rotateZ(-4deg);
+        }
+        40%,
+        100% {
+            transform: rotateZ(0);
+        }
+    } */
+
+.premiumm-houses-section-imges {
+    filter: drop-shadow(0px 0px 6px rgb(94, 94, 92));
+    margin-top: 10px;
+    height: 25%;
+    width: auto;
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m: left var(--_i, 0%) top var(--_g), bottom var(--_i, 0%) left var(--_g), top var(--_i, 0%) right var(--_g), right var(--_i, 0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale(0);
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+img:hover {
+    --_i: 10%;
+    filter: grayscale(0);
+}
+
+.premium-houses-section-text {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: -350px;
+}
+
+.premium-houses-section-heading {
+    font-size: 28px;
+    font-weight: 700;
+    /* -webkit-text-stroke: 1px black; */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: rgb(8, 8, 8);
+}
+
+.premium-houses-section-descrption {
+    font-size: 18px;
+    font-weight: 500;
+    /* -webkit-text-stroke: 1px black; */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .premium-houses-section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        width: 95%;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .premiumm-houses-section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        width: 95%;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    #Cozy-Indoor {
+        width: 87%;
+        margin-left: 29px;
+        height: 325px;
+    }
+    #Under-Stair {
+        width: 105%;
+        margin-left: -13px;
+        height: 309px;
+        filter: drop-shadow(0px 0px 13px black);
+    }
+    #Repurposed-Wooden {
+        width: 87%;
+        margin-left: 23px;
+        height: 372px;
+    }
+    #DIY-Pallet {
+        width: 109%;
+        margin-left: -18px;
+        height: 324px;
+    }
+    #Window-Seat {
+        width: 68%;
+        margin-left: 57px;
+        height: 300px;
+    }
+    #wellness {
+        width: 146%;
+        margin-left: -44px;
+        height: 317px;
+    }
+    .premium-houses-section-text {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .premium-houses-section-descrption {
+        font-size: 22px;
+        /* font-family: Verdana, Geneva, sans-serif; */
+    }
+    .premium-houses-section-heading {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* Add styles for medium-sized screens here */
+    .premium-houses-section,
+    .premiumm-houses-section {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        width: 95%;
+    }
+    #Cozy-Indoor {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    #Under-Stair,
+    #Repurposed-Wooden,
+    #DIY-Pallet,
+    #Window-Seat,
+    #wellness {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    .premium-houses-section-text {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .premium-houses-section-descrption {
+        font-size: 22px;
+        max-width: 75%;
+        margin-left: 70px;
+    }
+}

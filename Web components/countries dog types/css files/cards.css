@@ -1,0 +1,153 @@
+body {
+    margin: 0%;
+    background-color: #fdf5e2;
+}
+
+.foot {
+    background-color: #fdf5e2 !important;
+}
+
+.middle-div-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+    background-color: #fdf5e2;
+}
+
+.middle-div-1-1 {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    background-color: white;
+    border: 2px solid rgb(236, 111, 111);
+    border-radius: 20px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.middle-div-1-1:hover {
+    transform: scale(1.02);
+    box-shadow: -5px 5px 5px rgb(236, 111, 111), 2px 1px 5px 4px rgb(236, 111, 111);
+    border: none;
+}
+
+.middle-div-1-1 h3 {
+    margin-left: 27%;
+    overflow: hidden;
+}
+
+.card-img {
+    overflow: hidden;
+    border-radius: 15px;
+    height: 206px;
+    width: 325px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+
+.middle-div-1-1 .dogs-title {
+    margin-left: 5%;
+    text-align: center;
+    color: rgb(236, 111, 111);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 20px rgb(236, 111, 111);
+    font-size: 25px;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+
+.description-line-card-img {
+    margin-left: 60px;
+    margin-top: 7px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.life-yrs {
+    font-weight: 500;
+    color: rgb(236, 111, 111);
+    margin-left: 2px;
+}
+
+.btnnn {
+    color: #FFFDD1;
+    height: 45px;
+    width: 110px;
+    background-color: rgb(236, 111, 111);
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 21px;
+    margin-left: 34%;
+    margin-top: 4px;
+    border: none;
+    transition: background-color 0.5s ease;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.searchbaris {
+    margin-top: 10px;
+}
+
+.btnnn:hover {
+    background-color: #FFFDD1;
+    transform: scale(1.05);
+    color: rgb(236, 111, 111);
+    border: 2px solid rgb(236, 111, 111);
+    cursor: pointer;
+}
+
+.middle-div-1-1 img,
+h3 {
+    animation: sidein 3s;
+}
+
+@keyframes sidein {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.middle-div-1-1 h6 {
+    overflow: hidden;
+    animation: siden 3s;
+}
+
+@keyframes siden {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+/* Media query for small screens */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col-lg-12 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-div-1 {
+        margin-top: 20px;
+    }
+    .middle-div-1-1 {
+        margin-top: 25px;
+    }
+    .card-img {
+        border-radius: 16px;
+        height: 207px;
+        width: 319px;
+        margin-left: 2px;
+        margin-top: 3px;
+    }
+}

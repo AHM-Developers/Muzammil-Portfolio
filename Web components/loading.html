@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Prevent scroll during loading */
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    #loading-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff; /* Background color of the loading screen */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000; /* Ensure it's on top of other content */
+    }
+
+    #loading-content {
+      text-align: center;
+      margin-left: -110px;
+    }
+
+    .loading-border {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      border: 12px solid transparent;
+      border-radius: 50%;
+      border-top-color: red; /* Adjust the color of the loading border */
+      animation: rotate 1.5s linear infinite;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Add animation to fade out the loading screen */
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    /* Apply the fadeOut animation to the loading screen */
+    #loading-container.fade-out {
+      animation: fadeOut 1.5s ease-out forwards;
+    }
+
+    /* Style for the fixed-size logo image */
+    #logo img {
+      height: 90px; /* Fixed height for the image */
+      width: 100px; /* Fixed width for the image */
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading screen -->
+  <div id="loading-container">
+    <div id="logo">
+      <!-- Optional: Add a loading text or logo here -->
+      <img src="./PATRONA_LOGO-removebg-preview.png" alt="Your Logo">
+    </div>
+    <div id="loading-content">
+      <div class="loading-border"></div>
+    </div>
+  </div>
+
+  <!-- Your main content goes here -->
+  <div id="main-content">
+    <!-- Your existing content goes here -->
+    <!-- Example: -->
+    <h1>Welcome to My Website</h1>
+    <!-- Add the rest of your content -->
+  </div>
+
+  <script>
+    // JavaScript to remove loading screen after a delay
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var loadingContainer = document.getElementById('loading-container');
+        loadingContainer.classList.add('fade-out');
+        document.body.style.overflow = 'auto'; // Restore scroll after loading
+      }, 15000); // Adjust the delay (in milliseconds) as needed
+    });
+  </script>
+</body>
+</html>

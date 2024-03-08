@@ -1,0 +1,9 @@
+  <div class="col-lg-12 hero-section">
+        <img src="home-page images/Hero Section.png" class="hero-section-img " alt=" ">
+        <h1 class="hero-section-heading">Welcome To Our
+            <span>"Patrona"</span></h1>
+
+        <p class="hero-section-detail-lines ">Unlock a world of pet joy! Sign up now to join our community of passionate pet lovers. It's quick, easy, and your furry friend will thank you for it. </p>
+        - <button type="button " class="signup-btn ">Sign Up</button>
+
+    </div>

@@ -1,0 +1,116 @@
+body {
+    background-color: #fdf5e2;
+}
+
+.countries-cards-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+    background-color: #fdf5e2;
+}
+
+.flags-imgs {
+    height: 235px;
+    width: 335px;
+    margin-top: -19px;
+    /* border: 1pxolid black; */
+    border-radius: 26px;
+}
+
+.country-section {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    background-color: rgb(238, 229, 229);
+    margin-top: 20px;
+}
+
+.country-section:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 4px rgb(53, 50, 50), 5px 5px 10px rgb(95, 93, 93);
+}
+
+.countries-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: solid;
+    /* text-shadow: 2px 2px 2px purple; */
+    color: rgb(240, 47, 121);
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.countries-title:hover {
+    text-decoration: underline;
+}
+
+.countries-card-button {
+    border-radius: 10px;
+    height: 45px;
+    width: 110px;
+    background-color: rgb(243, 44, 100);
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid rgb(235, 44, 98);
+    margin-top: 18px;
+    /* transition: background-color 0.2s ease-in-out; */
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+.countries-card-button:hover {
+    background-color: white;
+    transform: scale(1.1);
+    color: rgb(240, 47, 121);
+    border: 2px solid rgb(240, 47, 121);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.foot {
+    background-color: #fdf5e2;
+}
+
+@media only screen and (max-width: 767px) {
+    .col-lg-12 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .country-section {
+        height: 394px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+        background-color: rgb(238, 229, 229);
+        margin-top: 45px;
+        max-width: 303px;
+    }
+    .flags-imgs {
+        height: 236px;
+        width: 295px;
+        margin-top: -38px;
+        border-radius: 32px;
+    }
+    .countries-cards-div {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .country-section {
+        width: calc(50% - 20px);
+        /* Adjust the width based on the number of cards you want in a row */
+    }
+}

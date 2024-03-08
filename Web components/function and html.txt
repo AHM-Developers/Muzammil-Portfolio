@@ -1,0 +1,173 @@
+ <div class="col-lg-3 middle-div-1-1 ">
+            <img src="" alt="loading.. " class="card-img" id="addedpic">
+            <h3 class="dogs-title " id="title"></h3>
+            <h6 class="description-line-card-img ">Life-Expectancy:<span class=" life-yrs" id="life"></span>
+            </h6>
+            <h6 class="description-line-card-img ">Commencement:<span class="life-yrs ">African</span>
+            </h6>
+        <button id="addbtn" onclick="showcard()">+</button>
+        </div>
+
+
+
+
+<div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content" style="border-radius: 20px;height: 330px;background: color #fdf5e2;border: 2px solid red;width: 79%;">
+            <div class="modal-header">
+              <h5 class="modal-title">Add Card</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="closemodal()"></button>
+            </div>
+            <div class="modal-body">
+             <label for="">Name Of Dog</label>
+             <input type="text" id="modaltitle" placeholder="Puppy">
+             <br><br>
+                <label for="">Image</label>
+                <input type="text" id="picsrc" placeholder="Put the Online-image src" required><br><br>
+                <label for="">Life Expectancy</label>
+             <input type="text" placeholder="0-0yrs" id="modallife" required> 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="clearvalues()"  >Clear</button>
+              <button type="button" class="btn btn-primary" onclick="addcard()" style="background-color: purple;">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<script>
+
+var addedpic=document.getElementById("addedpic");
+var life=document.getElementById("life");
+var title=document.getElementById("title");
+var modal=document.getElementsByClassName("modal")[0];
+
+function showcard()
+{
+// modal
+modal.style.display="block";
+
+}
+
+
+// function addcard()
+// {
+// // getting modal values..
+// var imgsrc=document.getElementById("picsrc").value;
+// var modallife=document.getElementById("modallife").value;
+
+// addedpic.style.transition = "none";
+//       addedpic.style.opacity = "0";
+//       addedpic.style.transform = "translateX(-100%)";
+      
+//       addedpic.src=imgsrc;
+//       addedpic.offsetHeight; // Trigger reflow
+      
+//       // Apply transition
+//       addedpic.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+//       addedpic.style.transform = "translateX(0)";
+//       addedpic.style.opacity = "1";
+
+// // putting modal values in card
+
+// life.style.transition = "none";
+//       life.style.opacity = "0";
+//       life.style.transform = "translateX(-100%)";
+      
+//       life.innerHTML=modallife;
+//       life.offsetHeight; // Trigger reflow
+      
+//       // Apply transition
+//       life.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+//       life.style.transform = "translateX(0)";
+//       life.style.opacity = "1";
+
+//       if (addedpic =="" && life =="") 
+//       {
+//     modal.style.display = "none";
+//     alert("error");
+// } 
+
+// else {
+//  alert("wellcome")
+// }
+
+
+function addcard() {
+    // Getting modal values
+    var imgsrc = document.getElementById("picsrc").value;
+    var modallife = document.getElementById("modallife").value;
+    var modaltitle =document.getElementById("modaltitle").value;
+    // Check if imgsrc and modallife are not empty
+    if (imgsrc.trim() !== "" && modallife.trim() !== "" && modaltitle.trim() !=="" ){
+       
+        title.style.transition = "none";
+        title.style.opacity = "0";
+        title.style.transform = "translateX(-100%)";
+
+        title.innerHTML = modaltitle;
+        title.offsetHeight; // Trigger reflow
+
+        // Apply transition
+        title.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+        title.style.transform = "translateX(0)";
+        title.style.opacity = "1";
+       
+    
+        addedpic.style.transition = "none";
+        addedpic.style.opacity = "0";
+        addedpic.style.transform = "translateX(-100%)";
+
+        addedpic.src = imgsrc;
+        addedpic.offsetHeight; // Trigger reflow
+
+        // Apply transition
+        addedpic.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+        addedpic.style.transform = "translateX(0)";
+        addedpic.style.opacity = "1";
+
+        
+        life.style.transition = "none";
+        life.style.opacity = "0";
+        life.style.transform = "translateX(-100%)";
+
+        life.innerHTML = modallife;
+        life.offsetHeight; // Trigger reflow
+
+        // Apply transition
+        life.style.transition = "transform 0.5s ease-in-out, opacity 0.5s ease-in-out";
+        life.style.transform = "translateX(0)";
+        life.style.opacity = "1";
+
+
+        
+        modal.style.display="none";
+        alert("Welcome");
+    } else {
+        alert("Error: Please provide valid inputs");
+    }
+}
+
+
+function closemodal()
+{
+modal.style.display="none";
+
+}
+
+function clearvalues()
+{
+
+   var imgsrc=document.getElementById("picsrc");
+imgsrc.value="";
+var modallife=document.getElementById("modallife");
+modallife.value="";
+var modaltitle=document.getElementById("modaltitle");
+modaltitle.value="";
+}
+
+</script>
+

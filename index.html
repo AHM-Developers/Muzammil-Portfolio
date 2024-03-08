@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MF-PORTFOLIO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body" oncontextmenu="false">
+    <!-- HEADER -->
+    <header class="col-lg-12 header">
+        <div class="col-lg-4 logo">
+            <span class="logo-text-cricle">MF</span>
+            <h3 class="logo-text">FRONTEND DEVELOPER</h3>
+        </div>
+        <nav class="col-lg-6 navbar">
+            <i class="ri-menu-4-line toggle-button" id="togggle-button" onclick="toggleNavbar()"></i>
+            <ul class="navbar-list">
+                <li class="navbar-item" id="home" onclick="toremove()"><a href="#home">Home</a></li>
+                <li class="navbar-item" id="aboutme" onclick="toremove()"><a href="#aboutme">About Me</a></li>
+                <li class="navbar-item" id="skills" onclick="toremove()"><a href="#skills">Skills</a></li>
+                <li class="navbar-item" id="projects" onclick="toremove()"><a href="#projects">Projects</a></li>
+                <button id="contactme" onclick="toremove()"><a href="#contactme" >Contact Me</a></button>
+                <button id="colortranslator" onclick="colortranslate()" class="black"><i class="ri-lightbulb-line" ></i></button>
+                <div class="closes-button" onclick="closeNavbar()">✕</div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME-PAGE -->
+    <div class="col-lg-10 home-page" id="home-active">
+        <div class="col-lg-4 home-page-image">
+            <div class="socail-icons">
+                <div class="socail-icons-box">
+                    <a href="https://www.linkedin.com/in/muzammil-faheem-portfolio/" class="LinkedIn">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                </div>
+                <div class="socail-icons-box">
+                    <a href="https://www.facebook.com/profile.php?id=100092604442643" class="Facebook">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                </div>
+                <div class="socail-icons-box">
+                    <a href="https://www.instagram.com/itx_muzammil_fd/" class="instagram">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+                <div class="socail-icons-box">
+                    <a href="https://github.com/MuhammadMuzammilFaheem" class="github">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </div>
+                <img id="curved-arrow" src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-website-rian/7f91009c512024204af62ee43c85a1de04a4603f/assets/img/curved-arrow.svg" alt="">
+            </div>
+            <div class="frame"></div>
+            <img src="assest/homepage-dp.jpg" alt="" id="homepage-dp">
+        </div>
+        <div class="col-lg-4 home-page-text">
+            <p>Hello, I'm</p>
+            <h1 class="home-page-heading">MUZAMMIL FAHEEM</h1>
+            <h3 class="sub-heading">FRONTEND-DEVELOPER </h3>
+            <p>With Knowledge in web development and design, I offer the best projects resulting in quality work</p>
+            <button class="cv-button" id="downloadButton"><a class="cv-button-style" href="assest/CV.pdf" download="muzammil-faheem-CV" target="_blank">Download CV</a>
+            </button>
+            <button class="sendmessage-button"><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=muzamilfaheem87@gmail.com" target="_blank">Hire Me</a></button>
+
+            <img id="direction-lines" src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-website-rian/7f91009c512024204af62ee43c85a1de04a4603f/assets/img/random-lines.svg" alt="">
+        </div>
+    </div>
+    <!-- ABOUT ME -->
+    <div class="col-lg-9 aboutme" id="aboutme-active">
+        <div class="col-lg-5 aboutme-text">
+            <p id="aboutme-heading-text">Want to Know More</p>
+            <h2 class="aboutme-heading">ABOUT ME</h2><br>
+            <div class="aboutme-details">
+                <h6 class="aboutme-details-text">I'm a frontend developer passionate about creating captivating user experiences. My focus is on making the web not just functional but enjoyable.</h6>
+                <h6 class="aboutme-details-text">With a versatile tech palette, I work with HTML, CSS,Javascript and JQuery frameworks like Bootstrap. Adapting to new technologies ensures projects stay modern and engaging.</h6>
+                <h6 class="aboutme-details-text">I thrive on solving challenges and collaborate seamlessly within teams. Bringing creativity, communication, and technical expertise to every project, I ensure success and client satisfaction.</h6>
+            </div>
+        </div>
+        <div class="col-lg-4 aboutme-image">
+
+            <div class="aboutme-frame"></div>
+
+            <div class="aboutme-image-src"><img src="assest/homepage-dp.PNG" alt="" id="aboutme-image"></div>
+            <img src="assest/direction-arrow.png" alt="" id="aboutme-arrow-image">
+
+        </div>
+        <!-- SKILLS -->
+    </div>
+    <div class="col-lg-10 skills-sections" id="skills-active">
+
+        <div class="skills-section-dev">
+            <h2 class="skills-section-heading">MY SKILLS</h2>
+            <div class="skills-section-dot"></div>
+            <div class="skills-section-dev-detail">
+                <h5 class="skills-section-dev-heading">HTML</h5>
+                <p class="skill-section-dev-para">I'm really good with HTML - not just typing code, but creating websites that are easy to use. I organize information neatly and make sure people can find it easily on the internet.</p>
+            </div>
+
+            <div class="skills-section-dot"></div>
+            <div class="skills-section-dev-details">
+                <h5 class="skills-section-dev-heading">CSS & BOOTSTRAP</h5>
+                <p class="skill-section-dev-para">I specialize in making websites look awesome using CSS and Bootstrap. Imagine every line of code as a spell, transforming regular sites into visually magical experiences. </p>
+            </div>
+
+            <div class="skills-section-dot"></div>
+            <div class="skills-section-dev-detail">
+                <h5 class="skills-section-dev-heading">JAVASCRIPT & JQUERY</h5>
+                <p class="skill-section-dev-para">I'm the go-to expert for JavaScript & jQuery, the magicians of web interactivity. With these tools, I breathe life into websites, By adding Functionality in it.</p>
+            </div>
+
+            <div class="skills-section-dot"> </div>
+            <div class="skills-section-dev-details">
+                <h5 class="skills-section-dev-heading">DEBUGGING</h5>
+                <p class="skill-section-dev-para">Finding and fixing bugs is my specialty. I'm like a detective for code issues, making sure everything runs smoothly.ensuring a flawless digital landscape. </p>
+            </div>
+
+            <div class="skills-section-dot"></div>
+            <div class="skills-section-dev-detail">
+                <h5 class="skills-section-dev-heading">PROJECT MANAGEMENT</h5>
+                <p class="skill-section-dev-para">Navigating projects from dreams to reality is my strength. Count on me to ensure every piece falls into place, turning your visions into successful ventures. </p>
+            </div>
+
+            <div class="skills-section-dot" id="coming-soon-dot"></div>
+            <h2 id="coming-soon-heading">COMING SOON!</h2>
+            <div class="skills-section-dev-details" id="coming-soon">
+
+                <h5 class="skills-section-dev-heading">LARAVEL & PHP </h4>
+                    <p class="skill-section-dev-para">
+                        Turning ideas into reality is my thing. I'm your go-to for making sure everything in a project clicks. Let's work together to bring your plans to life! 🚀✨
+                    </p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- PROJECTS -->
+
+    <h1 class="project-section-main-heading">MY PROJECTS</h1>
+    <div class="col-lg-12 project-section" id="projects-active">
+
+        <div class="col-lg-3 project-cards-section" id="first-project-card">
+            <img src="assest/PATRONA-SS.PNG" alt="" class="project-cards-section-images">
+            <h3 class="project-cards-section-heading">PATRONA PUPPY'S</h3>
+            <button class="project-cards-github-button"><a href="https://github.com/AHM-Developers/Patrona-Puppys" target="_blank">Github<i class="ri-github-fill"></i></a></button>
+            <button class="project-cards-Live-button"><a href="https://ahm-developers.github.io/Patrona-Puppys/Home%20page/home.html" target="_blank">Live Demo<i class="ri-global-fill"></i></a></button>
+        </div>
+        <div class="col-lg-3 project-cards-section">
+            <img src="assest/WATCH-SS-PROMPT.webp" alt="" class="project-cards-section-images">
+            <h3 class="project-cards-section-heading">AHM Clock's</h3>
+            <button class="project-cards-github-button" onclick="toggleModal()">Github<i class="ri-github-fill"></i></button>
+            <button class="project-cards-Live-button">Live Demo<i class="ri-global-fill"></i></button>
+        </div>
+        <div class="col-lg-3 project-cards-section">
+            <img src="assest/EDUCATIONL-HUB-SS-PROMPT.png" alt="" class="project-cards-section-images">
+            <h3 class="project-cards-section-heading">AHM CODING HUB</h3>
+            <button class="project-cards-github-button" onclick="toggleModal2()">Github<i class="ri-github-fill"></i></button>
+            <button class="project-cards-Live-button">Live Demo<i class="ri-global-fill"></i></button>
+        </div>
+        <div class="modal-container">
+            <span class="close-button" onclick="closeModal()">X</span>
+            <img src="assest/WATCHES-SS.webp" alt="" class="modal-container-img">
+            <h5 class="modal-subtext">COMING SOON!</h5>
+            <h3 class="modal-text">A PROJECT BY AHM DEVELOPERS</h3>
+
+            <h6 class="modal-follow-text">Follow For More:</h6>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-upwork"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="modal-container2">
+            <span class="close-button" onclick="closesModal()">X</span>
+            <img src="assest/EDUCATIONL-HUB-SS.png" alt="" class="modal-container-img">
+            <h5 class="modal-subtext">COMING SOON!</h5>
+            <h3 class="modal-text">A PROJECT BY AHM DEVELOPERS</h3>
+
+            <h6 class="modal-follow-text">Follow For More:</h6>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-upwork"></i></a>
+            <a href="" class="modal-follow-icons"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="contactme-section" id="contactme-active">
+        <h1 class="project-section-main-heading">CONTACT ME</h1>
+
+        <section class="form">
+            <form action="# " method="post ">
+                <label for="name ">Your Name:</label>
+                <input type="text " id="name " placeholder="Enter your name here.. " required>
+
+                <label for="email ">Your Email:</label>
+                <input type="email " id="email " placeholder="xyz@gmail.com " required>
+
+                <label for="message ">Your Message:</label>
+                <textarea id="message " name="message " rows="6 " required></textarea>
+
+                <button type="submit " onclick="showalert() " id="button">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-div">
+                <p class="footer-para">Thank you for exploring my portfolio! Your visit is appreciated. I bring creativity, dedication, and a passion for excellence to every project. Let's collaborate to turn ideas into remarkable solutions. Ready to elevate your team, I'm
+                    just a message away.
+                    <br><br>
+                    <span class="footer-short-heading">Best regards,
+                        </span>
+                    <span class="footer-heading-details">Muzammil Faheem</span>
+                    <br>
+                    <span class="footer-short-heading">Let's Start</span> <span class="footer-heading-details">muzamilfaheem87@gmail.com</span>
+                </p>
+
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js " integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r " crossorigin="anonymous "></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js " integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+ " crossorigin="anonymous "></script>
+    <script src="index.js "></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+ <!-- Footer -->
+    <footer class="text-center text-lg-start background text-white">
+        <!-- Section: Social media -->
+        <div class="foot">
+
+        </div>
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block socail-media">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="https://www.facebook.com/login.php/" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/i/flow/login" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.google.com/search?q=google&rlz=1C1PNBB_enPK1080PK1080&oq=google&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTISCAEQABhDGIMBGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyEggDEAAYQxiDARixAxiABBiKBTIMCAQQABhDGIAEGIoFMhIIBRAAGEMYgwEYsQMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTIPCAcQABhDGLEDGIAEGIoFMhIICBAAGEMYgwEYsQMYgAQYigUyDAgJEAAYQxiABBiKBdIBCTU0NTZqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8
+" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/login" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/login" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <div class="text-center d-flex justify-content-center text-uppercase fw-bold mb-4">
+                            <div class="logo"></div>
+                        </div>
+                        <p>
+                            <span class="descript-div-text text-uppercase">"Welcome to Patrona ! I'm here for your guide to the enchanting world of puppies. Discover tips, stories, and the joy of raising these furry companions.&quot;</span>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 products">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 heading">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Feeds</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Countries</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">About US</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">FAQ's</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 discovers">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 heading">
+                            Discover
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Why do dogs bark?</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Why do dogs stare?</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">5 facts about dogs?</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Can dogs see color?</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">What does dog eat?</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Signs of healthy dog?</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 contacts">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4 heading">Contact</h6>
+                        <a href="https://www.aptechgarden.com/"><p><i class="fas fa-home me-3"></i> Aptech Garden , Karachi.</p></a>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> AHM Developers@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i>+92 30487 64667</p>
+                        <p><i class="fas fa-print me-3"></i>+92 332 9259219 </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="https://www.facebook.com/profile.php?id=61554500621622" style="color: yellow !important;">AHM's Developers</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
